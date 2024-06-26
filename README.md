@@ -26,7 +26,8 @@ kumpulan command untuk setting ubuntu
 
 `sudo apt install brave-browser`
 
-## Install Composer
+## Install Curl
+sudo apt-get install php-xml php-curl
 
 
 
