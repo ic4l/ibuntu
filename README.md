@@ -26,8 +26,27 @@ kumpulan command untuk setting ubuntu
 
 `sudo apt install brave-browser`
 
-## Install Curl
-sudo apt-get install php-xml php-curl
+## Pre-requisite
+- install web server di komputer
+- `sudo apt install php libapache2-mod-php`
+- install curl
+- `sudo apt install curl php-cli php-mbstring git unzip php-curl`
+- Install composer melalui CURL (Recomended)
+- `curl -sS https://getcomposer.org/installer |php`
+- `sudo mv composer.phar /usr/local/bin/composer`
+- `sudo service apache2 restart`
+- Install component yang dibutuhkan untuk COMPOSER
+- `sudo apt install curl php-cli php-mbstring git unzip php-curl`
+- `sudo apt-get install -y php8.*-gd`
+- `sudo apt-get install php8.*-intl`
+- `sudo apt-get install php8.*-xsl`
+- `sudo apt-get install php8.*-mbstring`
+
+# jika terjadi error
+
+[ErrorException]  mkdir(): Permission denied
+
+`sudo chown -R $USER:$USER /var/www/html/`
 
 
 
