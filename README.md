@@ -42,13 +42,6 @@ kumpulan command untuk setting ubuntu
 - `sudo apt-get install php8.*-xsl`
 - `sudo apt-get install php8.*-mbstring`
 
-# jika terjadi error
-
-[ErrorException]  mkdir(): Permission denied
-
-`sudo chown -R $USER:$USER /var/www/html/`
-
-
 
 ## Install Apache
 
@@ -58,7 +51,7 @@ kumpulan command untuk setting ubuntu
 
 
 
-## Install Compsoer
+## Install Composoer
 `sudo apt update`
 `sudo apt install php-cli unzip`
 `cd ~
@@ -72,3 +65,7 @@ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=compose
 ## If Error Installing Laravel (mkdir(): Permission denied)
 
 `sudo chown -R $USER:$USER /var/www`
+
+
+## config/database.php ada di dalam folder project laravelnya
+- Edit Strict
