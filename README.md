@@ -50,6 +50,10 @@ kumpulan command untuk setting ubuntu
 ## Install MySQL
 
 
+## Install PHPMyAdmin
+`sudo apt install phpmyadmin`
+
+
 
 ## Install Composoer
 `sudo apt update`
