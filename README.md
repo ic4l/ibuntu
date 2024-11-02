@@ -1,5 +1,5 @@
-# ibuntu
-kumpulan command untuk setting ubuntu
+# ibuntu & Laravel
+kumpulan command untuk setting Ubuntu & Laravel
 
 ## Merubah Login Screen untuk Primary Monitor 
 `sudo cp ~/.config/monitors.xml /var/lib/gdm3/.config/`
@@ -8,8 +8,10 @@ kumpulan command untuk setting ubuntu
 ## Membuat Permanent Alias
 `sudo nano ~/.bashrc`
 - Tambahkan command dibawah '# some more ls aliases'
-  
-`alias htdocs='cd /var/www/htdocs'`
+`alias htdocs='cd /var/www/html'`
+`alias iserve='php artisan serve --host ic4linux.local'`
+`alias xsip='ssh -p 65002 u337986536@154.41.240.43'`
+
 - Control + X .... Y untuk save and exit
 - Jalankan command dibawah ini untuk refresh
   
@@ -73,3 +75,6 @@ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=compose
 
 ## config/database.php ada di dalam folder project laravelnya
 - Edit Strict
+
+## QRCode for Laravel
+`https://github.com/SimpleSoftwareIO/simple-qrcode/tree/develop/docs/en`
